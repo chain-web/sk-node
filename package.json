@@ -1,0 +1,31 @@
+{
+  "name": "sk-node",
+  "version": "1.0.0",
+  "description": "sk-chain nodeJs test node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chain-web/sk-node.git"
+  },
+  "type": "commonjs",
+  "author": "scc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chain-web/sk-node/issues"
+  },
+  "homepage": "https://github.com/chain-web/sk-node#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "rollup": "^2.70.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2"
+  }
+}
