@@ -30,7 +30,7 @@ export default [
     output: [
       {
         dir: 'dist',
-        format: 'cjs',
+        format: 'esm',
       },
     ],
   }),
