@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "start": "NODE_EXTRA_CA_CERTS=node_modules/node_extra_ca_certs_mozilla_bundle/ca_bundle/ca_intermediate_root_bundle.pem node ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "bignumber.js": "^9.0.2"
+    "bignumber.js": "^9.0.2",
+    "node_extra_ca_certs_mozilla_bundle": "^1.0.5"
   }
 }
